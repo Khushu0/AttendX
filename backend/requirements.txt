@@ -1,0 +1,13 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+pymongo==4.19.0
+python-jose[cryptography]==3.4.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+pydantic[email]==2.10.6
+python-multipart==0.0.20
+cryptography==44.0.2
+opencv-python-headless==4.11.0.86
+bcrypt==4.0.1
+
+Pillow==13.0.0

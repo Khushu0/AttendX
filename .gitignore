@@ -1,0 +1,29 @@
+# Dependencies and build files
+node_modules/
+dist/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local backups
+*.backup
+*.before-*
+AttendX.zip
+
+# SSL certificates and private keys
+*.key
+*.crt
+certs/*.pem
+
+# Local biometric models
+backend/models/
+
+# System files
+.DS_Store
+*.log
